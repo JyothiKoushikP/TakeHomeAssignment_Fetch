@@ -85,7 +85,7 @@ up -> Boolean (Stores a boolean value to check if response is **"UP"** or **"DOW
 ![Alt text](./Screenshots/s4.png)
 
 * **Note: For some cases, the IDE might ask you with an alert whether to **Trust and open the project**, kindly confirm and open the project.**
-* **Note: Sometimes, the IDE might give you an alert to open the project as a **Eclipse** Project (or) a **Maven** project. Kindly select **Maven**.
+* **Note: Sometimes, the IDE might give you an alert to open the project as a **Eclipse** Project (or) a **Maven** project. Kindly select **Maven**.**
 
 
 * After you open the project, the layout will be as follows with the project directory on the left side and the opened files to the right. Navigate to **/src/main/java/org/TestCycle.java** as shown below and open that file.
@@ -136,7 +136,7 @@ up -> Boolean (Stores a boolean value to check if response is **"UP"** or **"DOW
 
 ![Alt text](./Screenshots/s12.png)
 
-* In this way, you can run the code with custom command line arguments.
+* In this way, you can run the code with custom command line arguments. You can stop the code execution as shown in case 1.
 
 **Output:**
 The endpoints are tested every 15 seconds and the availability percentage is calculated for each domain as shown below.

@@ -69,20 +69,20 @@ up -> Boolean (Stores a boolean value to check if response is **"UP"** or **"DOW
 
 * Download the Repository onto your local system. These can be done by cloning the repository via Git Commands (**git clone**) in your system. The best way would be **download the repository zip file manually as shown below**: 
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s1.png)
+![Alt text](./Screenshots/s1.png)
 
 * Unzip the zip file and you will find the following structure:
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s2.png)
+![Alt text](./Screenshots/s2.png)
 
 * As you can see, all the main codebase files are situated in **/src/main/java/org/example** directory. The .class files are situated in **target/classes/org/example**. There is also an **Input.YAML** file present which contains the requests. As this is a **Maven** project, there is a **pom.xml** file which automatically builds when you open this folder in Intellij IDE.
 
 
 * Now, launch Intellij IDE, you will see a menu similar to the one below, Open our project folder by selecting the option and browsing for the directory "**TakeHomeAssignment_Fetch**" or the name you saved the file with :
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s3.png)
+![Alt text](./Screenshots/s3.png)
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s4.png)
+![Alt text](./Screenshots/s4.png)
 
 * **Note: For some cases, the IDE might ask you with an alert whether to **Trust and open the project**, kindly confirm and open the project.**
 * **Note: Sometimes, the IDE might give you an alert to open the project as a **Eclipse** Project (or) a **Maven** project. Kindly select **Maven**.
@@ -90,18 +90,18 @@ up -> Boolean (Stores a boolean value to check if response is **"UP"** or **"DOW
 
 * After you open the project, the layout will be as follows with the project directory on the left side and the opened files to the right. Navigate to **/src/main/java/org/TestCycle.java** as shown below and open that file.
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s5.png)
+![Alt text](./Screenshots/s5.png)
 
 * **Note: This code is written and compiled using JDK 21 and Maven Dependencies. I strictly recommend installing JDK 21. Maven dependencies will automatically be updated when you load the project in the IDE as it contains the pom.xml file.** 
 
 * It is possible you can encounter some errors as shown below such as **Project JDK is not defined** (or) **Project JDK is misconfigured**, it means that JDK 21 is not present or is not configured properly.
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s6.png)
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s7.png)
+![Alt text](./Screenshots/s6.png)
+![Alt text](./Screenshots/s7.png)
 
 * In that case, select **Configure SDK** or **Setup JDK** option as shown above. It will give you the option to Download JDK, download JDK 21 for this project and the IDE will setup automatically.
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s8.png)
+![Alt text](./Screenshots/s8.png)
 
 * Sometimes, some unconventional errors might occur during execution such as **Version Compatibility error** or **Class file has wrong version 52.0, should be 50.0** or **Main Class not found error** . Please refer to https://www.youtube.com/watch?v=XJ5EjZmOwsk and https://www.youtube.com/watch?v=pmZsFR6wn18 that will help you to sort those problems.
 
@@ -117,11 +117,11 @@ up -> Boolean (Stores a boolean value to check if response is **"UP"** or **"DOW
 
 * Click on the run button as shown below, the code execution will start.
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s9.png)
+![Alt text](./Screenshots/s9.png)
 
 * The test cycle runs until the user stops the program. You can enter input in the console (**as shown in Working Video 1**) or **click the stop button as shown below** to stop the program execution.  
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s10.png)
+![Alt text](./Screenshots/s10.png)
 
 **CASE 1: You do have a YAML file and just want to test those inputs with the code**:
 
@@ -129,16 +129,16 @@ up -> Boolean (Stores a boolean value to check if response is **"UP"** or **"DOW
 
 * Select the option as shown below: It allows us to run **TestCycle.java** with parameters
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s11.png)
+![Alt text](./Screenshots/s11.png)
 
 * Copy the absolute filePath of your YAML file and paste it as shown below. 
 * Click on **Apply** and then **Run**.
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s12.png)
+![Alt text](./Screenshots/s12.png)
 
 * In this way, you can run the code with custom command line arguments.
 
 **Output:**
 The endpoints are tested every 15 seconds and the availability percentage is calculated for each domain as shown below.
 
-![Alt text](/Users/jyothikoushikpaladugu/Desktop/s13.png)
+![Alt text](./Screenshots/s13.png)
